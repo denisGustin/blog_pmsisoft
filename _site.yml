@@ -1,12 +1,17 @@
-name: "blog_pmsisoft"
-title: "blog_pmsisoft"
+name: "name_PMSISOft"
+title: "PMSISoft support"
 description: |
-  blog_pmsisoft
+  description_pmsisoft
+base_url: https://pmsisoft.netlify.app
 output_dir: "_site"
 navbar:
   right:
-    - text: "Home"
+    - text: "Accueil"
       href: index.html
-    - text: "About"
+    - text: "Acces PMSISoft"
+      href: https://www.pmsisoft.fr
+    - text: "Lespmsi.com"
+      href: https://www.lespmsi.com
+    - text: "A propos"
       href: about.html
 output: distill::distill_article

@@ -2,18 +2,18 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this blog",
-      "description": "Some additional details about the blog",
+      "title": "A propos du blog",
+      "description": "Blog support du logiciel PMSISoft",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-05-21T09:12:46+02:00"
+      "contents": "\r\nCe blog est le blog support du logiciel PMSISoft.\r\nPMSISoft, logiciel SaaS d’analyse des PMSI, est développé par la societe Datamis et est heberge par le MIPIH en hebergement HDS.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-09-20T08:07:57+02:00"
     },
     {
       "path": "index.html",
-      "title": "blog_pmsisoft",
+      "title": "Posts",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-05-21T09:12:48+02:00"
+      "last_modified": "2021-09-20T08:11:04+02:00"
     }
   ],
   "collections": ["posts/posts.json"]

@@ -1,36 +1,25 @@
 [
   {
-    "path": "posts/2021-05-21-premier-post/",
-    "title": "Premier post",
-    "description": "A short description of the post.",
+    "path": "posts/2021-09-18-case-mix-csarr-ralisations-et-pondrations/",
+    "title": "Case-mix réalisations et pondérations CSARR",
+    "description": "Par mois et par type d'intervenant",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "denis G",
+        "url": "https://pmsisoft.netlify.app"
       }
     ],
-    "date": "2021-05-21",
-    "categories": [],
-    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\ntest 1\r\ntest 2\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2021-05-21T09:09:04+02:00",
-    "input_file": {}
-  },
-  {
-    "path": "posts/welcome/",
-    "title": "Welcome to blog_pmsisoft",
-    "description": "Welcome to our new blog, blog_pmsisoft. We hope you enjoy \nreading what we have to say!",
-    "author": [
-      {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
-      }
+    "date": "2021-09-18",
+    "categories": [
+      "Ecran SSR",
+      "SSR V2022",
+      "Rapport SSR"
     ],
-    "date": "2021-05-21",
-    "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2021-05-21T07:17:10+02:00",
-    "input_file": {}
+    "contents": "\r\n\r\nContents\r\nRappportTableau\r\nGraphiques\r\n\r\nMéthodologie\r\nNotes - Caveat\r\n\r\nRappport\r\nLe rapport est généré automatiquement par PMSISoft en PDF à partir du périmètre de données PMSI défini par les filtres (période, UM, type d’hospitalisation, type d’intervenant).\r\n\r\nLes pondérations CSARR sont calculées à partir du référentiel des pondérations CSARR V2022, quelle que soit la période sélectionnée.\r\n\r\nTableau\r\n\r\n\r\nCase-mix filtré sur 7 mois et 2 intervenants\r\n\r\nLe tableau affiche pour chaque type d’intervenant sélectionné 5 calculs ou informations.\r\nRéalisations = total des réalisations CSARR de l’intervenant dans le périmètre + pourcentage que représente ce total par rapport à l’ensemble des réalisations CSARR du périmètre.\r\nPondérations V2022 = total des pondérations CSARR de l’intervenant dans le périmètre + pourcentage que représente ce total par rapport à l’ensemble des pondérations CSARR du périmètre.\r\nMois PMSI = liste des mois PMSI SSR du périmètre avec indication du nombre de semaines civiles incluses dans le mois PMSI SSR.\r\nRéalisations mensuelles = pour chaque mois PMSI SSR sélectionné, total des réalisations CSARR de l’intervenant + pourcentage que représente ce total par rapport à l’ensemble des réalisations CSARR du périmètre pour ce mois PMSI SSR.\r\nPondérations mensuelles = pour chaque mois PMSI SSR sélectionné, total des pondérations CSARR de l’intervenant + pourcentage que représente ce total par rapport à l’ensemble des pondérations CSARR du périmètre pour ce mois PMSI SSR.\r\nLes intervenants sont affichés par ordre décroissant sur la colonne Réalisations\r\nGraphiques\r\nGraphique “Réalisations CSARR par intervenant”\r\n\r\n\r\nEvolution mensuelle des réalisations CSARR pour un intervenant\r\n\r\n\r\n\r\nEvolution mensuelle des réalisations CSARR pour un autre intervenant\r\n\r\nUn graphique par type d’intervenant sélectionné.\r\nAxe x = suite des mois PMSI SSR du périmètre, affichés en abrégé + le nombre mensuel de semaines civiles, entre () + le total mensuel de réalisations CSARR de tous les intervenants du périmètre, entre []\r\nAxe y = gradations en nombre de réalisations CSARR, calées sur le maximum mensuel du nombre de réalisations CSARR\r\nL’évolution mensuelle du nombre de réalisations CSARR de l’intervenant du graphique est marquée en vert. Les évolutions mensuelles du nombre de réalisations CSARR des autres intervenants du périmètre sont affichées en gris clair à fin de comparaison.\r\nLes graphiques d’intervenants sont affichés par ordre décroissant sur le nombre de réalisations CSARR des intervenants.\r\nGraphique “Pondérations CSARR par intervenant”\r\n\r\n\r\nEvolution mensuelle des pondérations CSARR pour un intervenant\r\n\r\n\r\n\r\nEvolution mensuelle des pondérations CSARR pour un autre intervenant\r\n\r\nUn graphique par type d’intervenant sélectionné.\r\nAxe x = suite des mois PMSI SSR du périmètre, affichés en abrégé + le nombre mensuel de semaines civiles, entre () + le total mensuel des pondérations CSARR de tous les intervenants du périmètre, entre []\r\nAxe y = gradations en pondération CSARR, calées sur le maximum mensuel des pondérations CSARR\r\nL’évolution mensuelle des pondérations CSARR de l’intervenant du graphique est marquée en vert. Les évolutions mensuelles des pondérations CSARR des autres intervenants du périmètre sont affichées en gris clair à fin de comparaison.\r\nLes graphiques d’intervenants sont affichés par ordre décroissant sur le total des pondérations CSARR des intervenants.\r\nMéthodologie\r\nPérimètre = l’ensemble des actes CSARR rattachés au(x) type(s) d’intervenant sélectionné(s) des RHS correspondant aux UM, type d’hospitalisation et mois PMSI sélectionnés.\r\nPour l’hospitalisation complète, seuls les RHS de l’année sélectionnée sont retenus.\r\nLes actes CSARR supprimés à partir de l’année PMSI SSR 2021 (commencé semaine 9 de 2021) ont été transcodés en actes CSARR 2021 conformément aux recommandations ATIH, avant tout calcul.\r\nLe type intervenant 29 “(Neuro)psychorééducateur”, supprimé à partir de l’année PMSI SSR 2021, a été systématiquement recodé 33 “Neuropsychologue”\r\nPondération CSARR d’un acte = pondération CSARR unitaire V2022 de l’acte, tenant compte des règles de calcul des pondérations V2022 (pondération nulle pour certains couples acte x intervenant, majoration modulateur associé HW, LJ, HW, étape appareillage C) x nombre de réalisations de l’acte\r\nNotes - Caveat\r\nUn mois PMSI SSR correspond à un ensemble de 4 ou 5 semaines civiles. Pour un mois donné, ces ensembles sont variables d’une année à l’autre, rendant les comparaisons d’activité inter-annuelles délicates.\r\nIntervenant = type d’intervenant par abus de langage.\r\nDans les graphiques, la gradation des ordonnées (axe y) est réalisée automatiquement via l’algorithme d’Heckbert via la fonction R\r\nLes images des tableaux et graphiques de ce post ont été produits à partir d’un mini jeu de données généré par nos soins.\r\n\r\n\r\n(function() {  \r\n  for (const link of document.getElementsByTagName('a')) {  \r\n    if (/^(https?:)?\\/\\//.test(link.getAttribute('href'))) link.target = '_blank';  \r\n  }  \r\n})();  \r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/2021-09-18-case-mix-csarr-ralisations-et-pondrations/image_tableau_csarr.png",
+    "last_modified": "2021-09-25T10:59:29+02:00",
+    "input_file": "welcome.knit.md",
+    "preview_width": 1345,
+    "preview_height": 642
   }
 ]

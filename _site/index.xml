@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>PMSISoft support</title>
+    <link>https://pmsisoft.netlify.app</link>
+    <atom:link href="https://pmsisoft.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
+    <description>description_pmsisoft
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Fri, 17 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Case-mix réalisations et pondérations CSARR</title>
+      <dc:creator>denis G</dc:creator>
+      <link>https://pmsisoft.netlify.app/posts/2021-09-18-case-mix-csarr-ralisations-et-pondrations</link>
+      <description>Par mois et par type d'intervenant</description>
+      <category>Ecran SSR</category>
+      <category>SSR V2022</category>
+      <category>Rapport SSR</category>
+      <guid>https://pmsisoft.netlify.app/posts/2021-09-18-case-mix-csarr-ralisations-et-pondrations</guid>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://pmsisoft.netlify.app/posts/2021-09-18-case-mix-csarr-ralisations-et-pondrations/image_tableau_csarr.png" medium="image" type="image/png" width="1345" height="642"/>
+    </item>
+  </channel>
+</rss>

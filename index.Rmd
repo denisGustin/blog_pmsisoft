@@ -1,5 +1,5 @@
 ---
-title: "blog_pmsisoft"
+title: "Posts"
 site: distill::distill_website
 listing: posts
 ---

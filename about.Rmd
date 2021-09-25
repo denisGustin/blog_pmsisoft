@@ -1,9 +1,13 @@
 ---
-title: "About this blog"
+title: "A propos du blog"
 description: |
-  Some additional details about the blog
+  Blog support du logiciel PMSISoft
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+Ce blog est le blog support du logiciel PMSISoft.  
+
+PMSISoft, logiciel SaaS d'analyse des PMSI, est développé par la société [Datamis](https://www.lespmsi.com) et est hébergé par le [MIPIH](https://www.mipih.fr) en hébergement HDS.

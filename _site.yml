@@ -5,6 +5,7 @@ description: |
 base_url: https://pmsisoft.netlify.app
 output_dir: "_site"
 navbar:
+  search: false
   right:
     - text: "Accueil"
       href: index.html
@@ -14,4 +15,6 @@ navbar:
       href: https://www.lespmsi.com
     - text: "A propos"
       href: about.html
+    - icon: fa fa-github
+      href: https://github.com/denisGustin/blog_pmsisoft
 output: distill::distill_article

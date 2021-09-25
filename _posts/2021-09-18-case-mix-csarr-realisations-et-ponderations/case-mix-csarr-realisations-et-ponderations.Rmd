@@ -124,7 +124,7 @@ Un mois PMSI SSR correspond à un ensemble de 4 ou 5 semaines civiles. Pour un m
 
 Intervenant = type d'intervenant par abus de langage.    
 
-Dans les graphiques, la gradation des ordonnées (axe y) est réalisée automatiquement via l'algorithme d'Heckbert via la fonction R 
+Dans les graphiques, la gradation des ordonnées (axe y) est réalisée automatiquement via l'algorithme d'Heckbert.  
 
 Les images des tableaux et graphiques de ce post ont été produits à partir d'un mini jeu de données généré par nos soins.  
 
